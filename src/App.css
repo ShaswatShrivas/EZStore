@@ -1,28 +1,27 @@
 /* General body styles */
-html, body { height: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; background-color: #ffa500 ; }
+html, body { height: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; background-color: #e98426 ; }
 
 .main-content { flex: 1; }
 
 /* Navigation styles */
 nav {
-  background-color: #731cc2
-
-  ;
-  color: #fff;
+  background-color: #c9ed4c;
+  color: #000;
   padding: 10px 20px;
   display: flex;
   justify-content: space-around;
 }
 
 nav a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin: 0 15px;
   transition: color 0.3s;
+  font-family: Arial, sans-serif;
 }
 
 nav a:hover {
-  color: #ffa500;
+  color: #e98426;
 }
 
 /* Main content styles */
@@ -42,7 +41,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
+  margin-bottom: 10rem;
 }
 
 .about-image {
@@ -133,7 +132,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #ffa500;
+  background-color: #e98426;
 }
 
 .product-header {
@@ -150,7 +149,7 @@ main {
 }
 
 .product {
-  background-color: white;
+  background-color: #eff387;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 20px;
@@ -215,7 +214,7 @@ button:active {
   max-width: 800px;
   margin: 5rem auto;
   padding: 20px;
-  background-color: #faf7ea;
+  background-color: #eff387;
   border-color: #000;
   border-radius: 8px;
   box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1);
@@ -362,15 +361,18 @@ button:hover {
 
 
 .footer-container {
-  background-color: #731cc2; /* Dark background color */
-  color: #fff; /* White text color */
+  background-color: #c9ed4c; /* Dark background color */
+  color: #000; /* White text color */
   padding: 20px; /* Padding around the footer */
   text-align: center; /* Centered text */
+  font-family: Arial, sans-serif;
+
 }
 
 .footer-container p {
   margin: 0; /* No margin for the paragraphs */
   padding: 5px 0; /* Vertical padding for spacing */  
+  
 }
 
 .footer-links {
@@ -380,6 +382,8 @@ button:hover {
   display: flex;
   justify-content: center; /* Center the links horizontally */
   gap: 20px; /* Space between links */
+  font-family: Arial, sans-serif;
+
 }
 
 .footer-links li {
@@ -387,10 +391,12 @@ button:hover {
 }
 
 .footer-links a {
-  color: #fff; /* White text color */
+  color: #000; /* White text color */
   text-decoration: none; /* Remove underline from links */
   font-weight: bold; /* Bold text */
   transition: color 0.3s ease; /* Smooth transition for hover effect */
+  font-family: Arial, sans-serif;
+
 }
 
 .footer-links a:hover {
